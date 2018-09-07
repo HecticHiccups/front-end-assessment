@@ -9,3 +9,7 @@
 ```
 
 to run tests just `npm run test`
+
+## Dependencies
+
+[Jest](https://jest.com)
