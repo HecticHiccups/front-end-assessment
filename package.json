@@ -1,0 +1,18 @@
+{
+	"name": "jesus-take-home",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "jest **/*.test.js || true"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^23.5.0",
+		"jest-environment-jsdom": "^23.4.0"
+	}
+}
