@@ -1,8 +1,8 @@
 const {
 	reverseInPlace
-} = require("../index.js");
+} = require('../src/index.js/');
 
-//Test case for Reversing in place.
+//Test cases for Reversing in place.
 describe("reverseInPlace", () => {
 	it("[] should be []", () => {
 		const input = [];

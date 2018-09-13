@@ -8,7 +8,7 @@
     npm install
 ```
 
-to run tests just `npm run test`
+to run server and test just `npm run start:test`
 
 ## Dependencies
 
