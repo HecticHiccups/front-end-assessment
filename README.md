@@ -8,9 +8,7 @@
     npm install
 ```
 
-Run Server & Test enter `npm run start:test`
-
-Your code will be tested everytime you save
+Run Server & Test `npm run start:test`
 
 Hit `CTRL + C` to escape.
 
