@@ -1,4 +1,3 @@
-const axios = require('axios');
 const fetch = require('whatwg-fetch');
 /*
 Question 2
@@ -25,9 +24,9 @@ Question 2
 	Think of search filters and parameters.
  */
 
-//Searches for users with the same ID within
 
-//fetch request returns promise object of users.
+
+//fetch request returns promise object of users & messages.
 
 function users() {
 	const usersEndpoint = 'http://localhost:8080/users';
@@ -40,19 +39,6 @@ function messages() {
 	return window.fetch(usersEndpoint)
 		.then(response => response.json());
 }
-/*
-async function users() {
-	const UsersEndpoint = 'http://localhost:8080/users';
-	let UsersList = await axios(UsersEndpoint)
-	return UsersList;
-}
-function messages() {
-	const messagesEndpoint = 'http://localhost:8080/messages';
-	return axios(messagesEndpoint)
-		.then(res => res);
-}
-*/
-
 
 //Async functions returning a promise object
 async function main() {
